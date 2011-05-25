@@ -14,10 +14,13 @@
 		2B671708138D9928004A55D9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2B671706138D9928004A55D9 /* InfoPlist.strings */; };
 		2B67170B138D9928004A55D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B67170A138D9928004A55D9 /* main.m */; };
 		2B67170E138D9928004A55D9 /* Sticky_Image_Table_View_ExampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B67170D138D9928004A55D9 /* Sticky_Image_Table_View_ExampleAppDelegate.m */; };
-		2B671711138D9928004A55D9 /* Sticky_Image_Table_View_Example.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2B67170F138D9928004A55D9 /* Sticky_Image_Table_View_Example.xcdatamodeld */; };
 		2B671714138D9929004A55D9 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B671712138D9929004A55D9 /* MainWindow.xib */; };
 		2B671717138D9929004A55D9 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B671716138D9929004A55D9 /* RootViewController.m */; };
 		2B67171A138D9929004A55D9 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B671718138D9929004A55D9 /* RootViewController.xib */; };
+		2B671724138DA0D0004A55D9 /* charmander.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B671720138DA0CF004A55D9 /* charmander.png */; };
+		2B671725138DA0D0004A55D9 /* charmander@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B671721138DA0CF004A55D9 /* charmander@2x.png */; };
+		2B671726138DA0D0004A55D9 /* squirtle.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B671722138DA0CF004A55D9 /* squirtle.png */; };
+		2B671727138DA0D0004A55D9 /* squirtle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B671723138DA0D0004A55D9 /* squirtle@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,17 +29,20 @@
 		2B6716FD138D9928004A55D9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2B6716FF138D9928004A55D9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		2B671701138D9928004A55D9 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		2B671705138D9928004A55D9 /* Sticky Image Table View Example-Info.plist */ = {isa = PBXFileReference; path = "Sticky Image Table View Example-Info.plist"; sourceTree = "<group>"; };
+		2B671705138D9928004A55D9 /* Sticky Image Table View Example-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sticky Image Table View Example-Info.plist"; sourceTree = "<group>"; };
 		2B671707138D9928004A55D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		2B671709138D9928004A55D9 /* Sticky Image Table View Example-Prefix.pch */ = {isa = PBXFileReference; path = "Sticky Image Table View Example-Prefix.pch"; sourceTree = "<group>"; };
+		2B671709138D9928004A55D9 /* Sticky Image Table View Example-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sticky Image Table View Example-Prefix.pch"; sourceTree = "<group>"; };
 		2B67170A138D9928004A55D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2B67170C138D9928004A55D9 /* Sticky_Image_Table_View_ExampleAppDelegate.h */ = {isa = PBXFileReference; path = Sticky_Image_Table_View_ExampleAppDelegate.h; sourceTree = "<group>"; };
+		2B67170C138D9928004A55D9 /* Sticky_Image_Table_View_ExampleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sticky_Image_Table_View_ExampleAppDelegate.h; sourceTree = "<group>"; };
 		2B67170D138D9928004A55D9 /* Sticky_Image_Table_View_ExampleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sticky_Image_Table_View_ExampleAppDelegate.m; sourceTree = "<group>"; };
-		2B671710138D9928004A55D9 /* Sticky_Image_Table_View_Example.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Sticky_Image_Table_View_Example.xcdatamodel; sourceTree = "<group>"; };
 		2B671713138D9929004A55D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		2B671715138D9929004A55D9 /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		2B671715138D9929004A55D9 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		2B671716138D9929004A55D9 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		2B671719138D9929004A55D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		2B671720138DA0CF004A55D9 /* charmander.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = charmander.png; sourceTree = "<group>"; };
+		2B671721138DA0CF004A55D9 /* charmander@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "charmander@2x.png"; sourceTree = "<group>"; };
+		2B671722138DA0CF004A55D9 /* squirtle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = squirtle.png; sourceTree = "<group>"; };
+		2B671723138DA0D0004A55D9 /* squirtle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "squirtle@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,13 +91,16 @@
 		2B671703138D9928004A55D9 /* Sticky Image Table View Example */ = {
 			isa = PBXGroup;
 			children = (
+				2B671720138DA0CF004A55D9 /* charmander.png */,
+				2B671721138DA0CF004A55D9 /* charmander@2x.png */,
+				2B671722138DA0CF004A55D9 /* squirtle.png */,
+				2B671723138DA0D0004A55D9 /* squirtle@2x.png */,
 				2B67170C138D9928004A55D9 /* Sticky_Image_Table_View_ExampleAppDelegate.h */,
 				2B67170D138D9928004A55D9 /* Sticky_Image_Table_View_ExampleAppDelegate.m */,
 				2B671712138D9929004A55D9 /* MainWindow.xib */,
 				2B671715138D9929004A55D9 /* RootViewController.h */,
 				2B671716138D9929004A55D9 /* RootViewController.m */,
 				2B671718138D9929004A55D9 /* RootViewController.xib */,
-				2B67170F138D9928004A55D9 /* Sticky_Image_Table_View_Example.xcdatamodeld */,
 				2B671704138D9928004A55D9 /* Supporting Files */,
 			);
 			path = "Sticky Image Table View Example";
@@ -158,6 +167,10 @@
 				2B671708138D9928004A55D9 /* InfoPlist.strings in Resources */,
 				2B671714138D9929004A55D9 /* MainWindow.xib in Resources */,
 				2B67171A138D9929004A55D9 /* RootViewController.xib in Resources */,
+				2B671724138DA0D0004A55D9 /* charmander.png in Resources */,
+				2B671725138DA0D0004A55D9 /* charmander@2x.png in Resources */,
+				2B671726138DA0D0004A55D9 /* squirtle.png in Resources */,
+				2B671727138DA0D0004A55D9 /* squirtle@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,7 +183,6 @@
 			files = (
 				2B67170B138D9928004A55D9 /* main.m in Sources */,
 				2B67170E138D9928004A55D9 /* Sticky_Image_Table_View_ExampleAppDelegate.m in Sources */,
-				2B671711138D9928004A55D9 /* Sticky_Image_Table_View_Example.xcdatamodeld in Sources */,
 				2B671717138D9929004A55D9 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,19 +298,6 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		2B67170F138D9928004A55D9 /* Sticky_Image_Table_View_Example.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				2B671710138D9928004A55D9 /* Sticky_Image_Table_View_Example.xcdatamodel */,
-			);
-			currentVersion = 2B671710138D9928004A55D9 /* Sticky_Image_Table_View_Example.xcdatamodel */;
-			path = Sticky_Image_Table_View_Example.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 2B6716EE138D9928004A55D9 /* Project object */;
 }
