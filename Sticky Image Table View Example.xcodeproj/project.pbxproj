@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B6716FC138D9928004A55D9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B6716FB138D9928004A55D9 /* UIKit.framework */; };
+		2B6716FE138D9928004A55D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B6716FD138D9928004A55D9 /* Foundation.framework */; };
+		2B671700138D9928004A55D9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B6716FF138D9928004A55D9 /* CoreGraphics.framework */; };
+		2B671702138D9928004A55D9 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B671701138D9928004A55D9 /* CoreData.framework */; };
+		2B671708138D9928004A55D9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2B671706138D9928004A55D9 /* InfoPlist.strings */; };
+		2B67170B138D9928004A55D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B67170A138D9928004A55D9 /* main.m */; };
+		2B67170E138D9928004A55D9 /* Sticky_Image_Table_View_ExampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B67170D138D9928004A55D9 /* Sticky_Image_Table_View_ExampleAppDelegate.m */; };
+		2B671711138D9928004A55D9 /* Sticky_Image_Table_View_Example.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2B67170F138D9928004A55D9 /* Sticky_Image_Table_View_Example.xcdatamodeld */; };
+		2B671714138D9929004A55D9 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B671712138D9929004A55D9 /* MainWindow.xib */; };
+		2B671717138D9929004A55D9 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B671716138D9929004A55D9 /* RootViewController.m */; };
+		2B67171A138D9929004A55D9 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B671718138D9929004A55D9 /* RootViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B6716F7138D9928004A55D9 /* Sticky Image Table View Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sticky Image Table View Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B6716FB138D9928004A55D9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2B6716FD138D9928004A55D9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2B6716FF138D9928004A55D9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2B671701138D9928004A55D9 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2B671705138D9928004A55D9 /* Sticky Image Table View Example-Info.plist */ = {isa = PBXFileReference; path = "Sticky Image Table View Example-Info.plist"; sourceTree = "<group>"; };
+		2B671707138D9928004A55D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2B671709138D9928004A55D9 /* Sticky Image Table View Example-Prefix.pch */ = {isa = PBXFileReference; path = "Sticky Image Table View Example-Prefix.pch"; sourceTree = "<group>"; };
+		2B67170A138D9928004A55D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2B67170C138D9928004A55D9 /* Sticky_Image_Table_View_ExampleAppDelegate.h */ = {isa = PBXFileReference; path = Sticky_Image_Table_View_ExampleAppDelegate.h; sourceTree = "<group>"; };
+		2B67170D138D9928004A55D9 /* Sticky_Image_Table_View_ExampleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sticky_Image_Table_View_ExampleAppDelegate.m; sourceTree = "<group>"; };
+		2B671710138D9928004A55D9 /* Sticky_Image_Table_View_Example.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Sticky_Image_Table_View_Example.xcdatamodel; sourceTree = "<group>"; };
+		2B671713138D9929004A55D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		2B671715138D9929004A55D9 /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		2B671716138D9929004A55D9 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		2B671719138D9929004A55D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B6716F4138D9928004A55D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B6716FC138D9928004A55D9 /* UIKit.framework in Frameworks */,
+				2B6716FE138D9928004A55D9 /* Foundation.framework in Frameworks */,
+				2B671700138D9928004A55D9 /* CoreGraphics.framework in Frameworks */,
+				2B671702138D9928004A55D9 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B6716EC138D9928004A55D9 = {
+			isa = PBXGroup;
+			children = (
+				2B671703138D9928004A55D9 /* Sticky Image Table View Example */,
+				2B6716FA138D9928004A55D9 /* Frameworks */,
+				2B6716F8138D9928004A55D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B6716F8138D9928004A55D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B6716F7138D9928004A55D9 /* Sticky Image Table View Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B6716FA138D9928004A55D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B6716FB138D9928004A55D9 /* UIKit.framework */,
+				2B6716FD138D9928004A55D9 /* Foundation.framework */,
+				2B6716FF138D9928004A55D9 /* CoreGraphics.framework */,
+				2B671701138D9928004A55D9 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2B671703138D9928004A55D9 /* Sticky Image Table View Example */ = {
+			isa = PBXGroup;
+			children = (
+				2B67170C138D9928004A55D9 /* Sticky_Image_Table_View_ExampleAppDelegate.h */,
+				2B67170D138D9928004A55D9 /* Sticky_Image_Table_View_ExampleAppDelegate.m */,
+				2B671712138D9929004A55D9 /* MainWindow.xib */,
+				2B671715138D9929004A55D9 /* RootViewController.h */,
+				2B671716138D9929004A55D9 /* RootViewController.m */,
+				2B671718138D9929004A55D9 /* RootViewController.xib */,
+				2B67170F138D9928004A55D9 /* Sticky_Image_Table_View_Example.xcdatamodeld */,
+				2B671704138D9928004A55D9 /* Supporting Files */,
+			);
+			path = "Sticky Image Table View Example";
+			sourceTree = "<group>";
+		};
+		2B671704138D9928004A55D9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B671705138D9928004A55D9 /* Sticky Image Table View Example-Info.plist */,
+				2B671706138D9928004A55D9 /* InfoPlist.strings */,
+				2B671709138D9928004A55D9 /* Sticky Image Table View Example-Prefix.pch */,
+				2B67170A138D9928004A55D9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B6716F6138D9928004A55D9 /* Sticky Image Table View Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B67171D138D9929004A55D9 /* Build configuration list for PBXNativeTarget "Sticky Image Table View Example" */;
+			buildPhases = (
+				2B6716F3138D9928004A55D9 /* Sources */,
+				2B6716F4138D9928004A55D9 /* Frameworks */,
+				2B6716F5138D9928004A55D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sticky Image Table View Example";
+			productName = "Sticky Image Table View Example";
+			productReference = 2B6716F7138D9928004A55D9 /* Sticky Image Table View Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B6716EE138D9928004A55D9 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 2B6716F1138D9928004A55D9 /* Build configuration list for PBXProject "Sticky Image Table View Example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2B6716EC138D9928004A55D9;
+			productRefGroup = 2B6716F8138D9928004A55D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B6716F6138D9928004A55D9 /* Sticky Image Table View Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B6716F5138D9928004A55D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B671708138D9928004A55D9 /* InfoPlist.strings in Resources */,
+				2B671714138D9929004A55D9 /* MainWindow.xib in Resources */,
+				2B67171A138D9929004A55D9 /* RootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B6716F3138D9928004A55D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B67170B138D9928004A55D9 /* main.m in Sources */,
+				2B67170E138D9928004A55D9 /* Sticky_Image_Table_View_ExampleAppDelegate.m in Sources */,
+				2B671711138D9928004A55D9 /* Sticky_Image_Table_View_Example.xcdatamodeld in Sources */,
+				2B671717138D9929004A55D9 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2B671706138D9928004A55D9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B671707138D9928004A55D9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2B671712138D9929004A55D9 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B671713138D9929004A55D9 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		2B671718138D9929004A55D9 /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B671719138D9929004A55D9 /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B67171B138D9929004A55D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2B67171C138D9929004A55D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		2B67171E138D9929004A55D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sticky Image Table View Example/Sticky Image Table View Example-Prefix.pch";
+				INFOPLIST_FILE = "Sticky Image Table View Example/Sticky Image Table View Example-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2B67171F138D9929004A55D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sticky Image Table View Example/Sticky Image Table View Example-Prefix.pch";
+				INFOPLIST_FILE = "Sticky Image Table View Example/Sticky Image Table View Example-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B6716F1138D9928004A55D9 /* Build configuration list for PBXProject "Sticky Image Table View Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B67171B138D9929004A55D9 /* Debug */,
+				2B67171C138D9929004A55D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B67171D138D9929004A55D9 /* Build configuration list for PBXNativeTarget "Sticky Image Table View Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B67171E138D9929004A55D9 /* Debug */,
+				2B67171F138D9929004A55D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2B67170F138D9928004A55D9 /* Sticky_Image_Table_View_Example.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2B671710138D9928004A55D9 /* Sticky_Image_Table_View_Example.xcdatamodel */,
+			);
+			currentVersion = 2B671710138D9928004A55D9 /* Sticky_Image_Table_View_Example.xcdatamodel */;
+			path = Sticky_Image_Table_View_Example.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2B6716EE138D9928004A55D9 /* Project object */;
+}
